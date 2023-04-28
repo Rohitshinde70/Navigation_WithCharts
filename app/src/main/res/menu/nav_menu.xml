@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Option 1"
+        android:icon="@drawable/baseline_navigate_next_24">
+
+    </item>
+
+    <item
+        android:id="@+id/nav_message"
+        android:title="Option 2"
+        android:icon="@drawable/baseline_navigate_next_24">
+
+    </item>
+
+    <item
+        android:id="@+id/nav_sync"
+        android:title="Option 3"
+        android:icon="@drawable/baseline_navigate_next_24">
+
+    </item>
+
+    <item
+        android:id="@+id/nav_trash"
+        android:title="Option 4"
+        android:icon="@drawable/baseline_navigate_next_24">
+
+    </item>
+
+    <item
+        android:id="@+id/nav_setting"
+        android:title="Option 5"
+        android:icon="@drawable/baseline_navigate_next_24">
+
+    </item>
+
+    <item
+        android:id="@+id/nav_chart"
+        android:title="Option 6"
+        android:icon="@drawable/baseline_navigate_next_24">
+
+    </item>
+
+    </group>
+
+</menu>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginTop="25dp"
+    android:layout_marginStart="16dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="40dp">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/profile">
+
+            </ImageView>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manasi Mahajan"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:paddingTop="11dp"
+            android:textStyle="bold">
+
+        </TextView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/underLine">
+
+        </View>
+
+    </LinearLayout>
+
+</LinearLayout>
